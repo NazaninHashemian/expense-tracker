@@ -1,8 +1,23 @@
 /* App.css */
+.background {
+  background-image: linear-gradient(to bottom right, #ccc, #fff);
+}
+
+
+/* HIDE dark background and use block layout on small screens */
+@media (max-width: 600px) {
+
+}
+
+
 @media (max-width: 600px) {
     table.table {
       font-size: 0.95rem;
     }
+    /* .background {
+      background-image: none;
+      box-shadow: none !important;
+    } */
   }
   
   @media (max-width: 400px) {
