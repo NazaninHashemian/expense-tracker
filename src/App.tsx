@@ -13,7 +13,17 @@ function App() {
   
   const visibleExpenses = selectedCategory ? expenses.filter(e => e.category === selectedCategory): expenses;
 
-  if(expenses.length === 0) return null;
+  if (expenses.length === 0) {
+    return (
+      <div className='background row justify-content-center align-items-center min-vh-100 px-md-5 px-sm-3 px-1 py-5'>
+        <div className='bg-light py-5 px-3 rounded shadow col-11 col-sm-10 col-md-9 col-lg-6 text-center'>
+          <p>No expenses yet. Add some!</p>
+          <ExpenseForm onSubmit={expense => setExpenses([...expenses, {...expense, id: expenses.length + 1}])}/>
+        </div>
+      </div>
+    )
+  }
+  
 
   return (
     
