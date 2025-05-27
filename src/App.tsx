@@ -17,9 +17,9 @@ function App() {
 
   return (
     
-    <div className='background justify-content-center align-items-center min-vh-100 px-md-5 px-sm-3 px-1 py-5'>
+    <div className='background row justify-content-center align-items-center min-vh-100 px-md-5 px-sm-3 px-1 py-5'>
       {/* <h2 className='fs-6'>Expense Tracker</h2> */}
-      <div className='bg-light p-sm-5 p-1 rounded shadow w-100 w-md-50'>
+      <div className='bg-light py-5  px-1 px-sm-3 px-md-4 px-lg-5  rounded shadow col-11 col-sm-10 col-md-9 col-lg-6'>
         {/* <div className="text-3xl font-bold text-red-500 text-center mt-10">
         Hello Tailwind!
         </div> */}
@@ -31,7 +31,6 @@ function App() {
         </div>
         <ExpenseList expenses={visibleExpenses} onDelete={(id) => setExpenses(expenses.filter(e => e.id !== id))}/>
       </div>
-      
 
     </div>
   )
