@@ -6,10 +6,25 @@ import ExpenseForm from './components/ExpenseForm';
 function App() {
   const [selectedCategory, setSelectedCategory] = useState('');
   const [expenses, setExpenses] = useState([
-    {id:1, description: 'aaa', amount: 10, category: 'Utilities'},
-    {id:2, description: 'bbb', amount: 10, category: 'Utilities'},
-    {id:3, description: 'ccc', amount: 10, category: 'Utilities'},
-    {id:4, description: 'ddd', amount: 10, category: 'Utilities'}
+
+    {
+      id: 1,
+      description: 'Beef',
+      amount: 25,
+      category: 'Groceries',
+    },
+    {
+      id: 2,
+      description: 'Milk',
+      amount: 6,
+      category: 'Groceries',
+    },
+    {
+      id: 3,
+      description: 'Electricity',
+      amount: 120,
+      category: 'Utilities',
+    }
   ]
   );
   
@@ -18,9 +33,9 @@ function App() {
   if(expenses.length === 0) return null;
 
   return (
-    <div>
-      <div className="text-3xl font-bold text-red-200 text-center mt-10">
-        Tailwind is working!
+    <div className='mx-5'>
+      <div className="text-3xl font-bold text-red-500 text-center mt-10">
+      Hello Tailwind!
       </div>
       <div className="mb-3">
         <ExpenseForm onSubmit={expense => setExpenses([...expenses, {...expense, id: expenses.length + 1}])}/>
