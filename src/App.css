@@ -1,0 +1,47 @@
+/* App.css */
+@media (max-width: 600px) {
+    table.table {
+      font-size: 0.95rem;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    table.table {
+      font-size: 0.9rem;
+    }
+  }
+
+  @media (max-width: 370px) {
+    table.table {
+      font-size: 0.8rem;
+    }
+  }
+
+  @media (max-width: 330px) {
+    table.table {
+      font-size: 0.75rem;
+    }
+  }
+
+  @media (max-width: 310px) {
+    table.table {
+      font-size: 0.7rem;
+    }
+  }
+
+  @media (max-width: 290px) {
+    table.table {
+      font-size: 0.6rem;
+    }
+  }
+  @media (max-width: 270px) {
+    table.table {
+      font-size: 0.5rem;
+    }
+  }
+
+  @media (max-width: 250px) {
+    table.table {
+      font-size: 0.45rem;
+    }
+  }
