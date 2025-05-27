@@ -15,7 +15,7 @@ const ExpenseList = ({ expenses, onDelete }: Props) => {
   return (
     <div className="container-fluid px-0">
         <div className="table-responsive">
-            <table className="table table-bordered table-sm">
+            <table className="table table-bordered table-sm text-center">
                 <thead className="table-light">
                     <tr>
                         <th>Description</th>

@@ -1,23 +1,16 @@
 /* App.css */
 .background {
-  background-image: linear-gradient(to bottom right, #555, #ddd);
+  background-image: linear-gradient(to bottom right,#000, #666, #ddd);
 }
 
 
 /* HIDE dark background and use block layout on small screens */
-@media (max-width: 600px) {
 
-}
-
-
+/*
 @media (max-width: 600px) {
     table.table {
       font-size: 0.95rem;
     }
-    /* .background {
-      background-image: none;
-      box-shadow: none !important;
-    } */
   }
   
   @media (max-width: 400px) {
@@ -59,4 +52,4 @@
     table.table {
       font-size: 0.45rem;
     }
-  }
+  } */
