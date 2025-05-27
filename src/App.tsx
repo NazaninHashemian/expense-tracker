@@ -19,6 +19,9 @@ function App() {
 
   return (
     <div>
+      <div className="text-3xl font-bold text-red-200 text-center mt-10">
+        Tailwind is working!
+      </div>
       <div className="mb-3">
         <ExpenseForm onSubmit={expense => setExpenses([...expenses, {...expense, id: expenses.length + 1}])}/>
       </div>
