@@ -19,7 +19,7 @@ function App() {
         <div className='bg-light py-5 px-1 px-sm-3 px-md-4 px-lg-5  rounded shadow col-11 col-sm-10 col-md-9 col-lg-6'>
           <p>No expenses yet. Add some!</p>
 
-          <div className="mb-3 border p-3">
+          <div className="mb-3 border py-2 px-sm-2 px-md-4">
             <ExpenseForm onSubmit={expense => setExpenses([...expenses, {...expense, id: expenses.length + 1}])}/>
           </div>
         </div>
@@ -36,11 +36,11 @@ function App() {
         {/* <div className="text-3xl font-bold text-red-500 text-center mt-10">
         Hello Tailwind!
         </div> */}
-        <div className="mb-3 border py-2 px-4">
+        <div className="mb-3 border py-2 px-sm-2 px-md-4">
           <ExpenseForm onSubmit={expense => setExpenses([...expenses, {...expense, id: expenses.length + 1}])}/>
         </div>
-        <div className="mb-3 border p-3">
-          <div  className="mb-5 py-1 px-1">
+        <div className="mb-3 border  px-sm-1 px-md-3">
+          <div  className="mb-5 py-3 px-sm-0 px-md-1">
             <ExpenseFilter onSelectCategory={category => setSelectedCategory(category)}/>
           </div>
           <ExpenseList expenses={visibleExpenses} onDelete={(id) => setExpenses(expenses.filter(e => e.id !== id))}/>
