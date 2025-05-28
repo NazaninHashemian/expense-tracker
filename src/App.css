@@ -1,12 +1,7 @@
 /* App.css */
 .background {
   background-image: linear-gradient(to bottom right,#000, #666, #ddd);
-
-
-
-  background-image: linear-gradient(rgba(255, 255, 255, 0.99), rgba(80, 80, 80, 0.75)), url('/images/pexels-pixabay-259209.jpg');
-  background-image: linear-gradient(rgba(20, 20, 20, 0.1), rgba(20, 20, 20, 0.5)), url('/images/pexels-pixabay-259165.jpg');
-
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('/images/pexels-pixabay-259165.jpg');
 
   background-repeat: no-repeat;
   background-position: center;
