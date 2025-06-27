@@ -42,12 +42,12 @@ expense-tracker/
 ├── index.html
 ├── package.json
 🚀 Getting Started
+
 Clone the repository:
-
 git clone https://github.com/NazaninHashemian/expense-tracker.git
+
+
 Navigate into the project directory:
-
-
 cd expense-tracker
 Install the dependencies:
 
