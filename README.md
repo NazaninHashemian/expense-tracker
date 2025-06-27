@@ -31,11 +31,17 @@ Vite (for fast development)
 📁 Folder Structure Overview
 
 expense-tracker/
+
 ├── public/
+
 ├── src/
+
 │   ├── components/
+
 │   │   ├── ExpenseForm.jsx
+
 │   │   ├── ExpenseTable.jsx
+
 │   ├── App.jsx
 │   ├── main.jsx
 │   └── validation.js
@@ -44,6 +50,7 @@ expense-tracker/
 🚀 Getting Started
 
 Clone the repository:
+
 git clone https://github.com/NazaninHashemian/expense-tracker.git
 
 
