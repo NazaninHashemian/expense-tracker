@@ -43,10 +43,16 @@ expense-tracker/
 │   │   ├── ExpenseTable.jsx
 
 │   ├── App.jsx
+
 │   ├── main.jsx
+
 │   └── validation.js
+
 ├── index.html
+
 ├── package.json
+
+
 🚀 Getting Started
 
 Clone the repository:
